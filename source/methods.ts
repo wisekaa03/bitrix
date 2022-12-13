@@ -72,12 +72,12 @@ export type Methods = {
     readonly params: Commands
   }
 } & MethodsMap &
-  CompaniesMethods &
-  ContactsMethods &
-  DealsMethods &
-  LeadsMethods &
-  StatusesMethods &
-  UsersMethods
+CompaniesMethods &
+ContactsMethods &
+DealsMethods &
+LeadsMethods &
+StatusesMethods &
+UsersMethods
 export declare type MethodData<M extends Method> = ExtractValue<Methods, M>
 export declare type MethodPayloadType<M extends Method> = MethodData<M>['type']
 export declare type MethodPayload<M extends Method> = MethodData<M>['payload']
