@@ -1,5 +1,5 @@
 {
-  "name": "@2bad/bitrix",
+  "name": "@lighthouse/bitrix",
   "version": "2.5.0",
   "description": "Bitrix24 REST API client that doesn't suck",
   "keywords": [
